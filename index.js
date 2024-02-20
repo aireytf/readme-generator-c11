@@ -78,7 +78,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then((answers) => {
-        writeToFile("READMEsample.md", answers)
+        writeToFile("README.md", answers)
     })
 };
 
