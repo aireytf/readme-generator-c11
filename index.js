@@ -15,14 +15,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer
-    .prompt([
-        {
-            type: 'input',
-            name: ,
-            message: ,
-        }
-    ])
-    .then();
+    .prompt(questions)
+    .then(answers) => {
+        writeToFile("SampleREADME.md", answers)
+    })
 }
 
 // function call to initialize program
