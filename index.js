@@ -20,7 +20,7 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Please provide a brief description of your project",
+        message: "Please provide a brief description of your project:",
     },
     {
         type: "input",
@@ -35,7 +35,7 @@ const questions = [
     {
         type: "checkbox",
         name: "license",
-        message: "Please choose a license for your project",
+        message: "Please choose a license for your project:",
         choices: ["MIT", "GPL V3", "Apache 2.0", "Mozilla Public 2.0"],
     },
     {
@@ -51,12 +51,12 @@ const questions = [
     {
         type: "input",
         name: "contributing",
-        message: "Please list any guidelines for others contributing to your project",
+        message: "Please list any guidelines for others contributing to your project:",
     },
     {
         type: "input",
         name: "tests",
-        message: "Please list any testing strategy/instructions for this project",
+        message: "Please list any testing strategy/instructions for this project:",
     },
 ];
 
