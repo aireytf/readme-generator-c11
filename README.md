@@ -1,30 +1,30 @@
 # README Generator
 
-This project showcases my work in completing the Module 12 Challenge of my edX Bootcamp. The challenge was to build a README generator that could be created from the command line. 
+    This project showcases my work in completing the Module 12 Challenge of my edX Bootcamp. The challenge was to build a README generator that could be created from the command line.
 
-## Table of Contents
+    ## Table of Contents
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [License](#license)
-4. [Contributing](#contributing)
-5. [Test](#tests)
-6. [Questions & Contact]
+    1. [Installation](#installation)
+    2. [Usage](#usage)
+    3. [License](#license)
+    4. [Contributing](#contributing)
+    5. [Test](#tests)
+    6. [Questions & Contact]
 
-## Installation
-[Installation instructions]
+    ## Installation
+    [Installation]
 
-## Usage
-[Usage instructions]
+    ## Usage
+    [Usage]
 
-## License 
-MIT
+    ## License 
+    MIT
 
-## Contributing
-[Contribution guidelines]
+    ## Contributing
+    [Contribution guidelines]
 
-## Tests
-[Testing guidance]
+    ## Tests
+    [Testing guidance]
 
     ## Questions
 
