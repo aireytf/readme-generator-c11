@@ -35,5 +35,5 @@ GitHub: aireytf
 # Demo
 
 ![Demo Walkthrough Video](/assets/Demo-walkthrough.mp4)
-  
+  GitHub cannot show my video file (due to size) but, for now, the Demo video can be viewed by following the 'View raw' button showing on the copy of the mp4 in the assets folder of this repository. 
   
