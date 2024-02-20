@@ -51,12 +51,12 @@ const questions = [
     {
         type: "input",
         name: "contributing",
-        message: "Please list any contributors",
+        message: "Please list any guidelines for others contributing to your project",
     },
     {
         type: "input",
         name: "tests",
-        message: "Please list any tests for this project",
+        message: "Please list any testing strategy/instructions for this project",
     },
 ];
 
