@@ -1,6 +1,13 @@
 const fs = require("fs");
 const path = require('path'); 
 const inquirer = require("inquirer");
+
+// Import 'util' module to use promisify
+const util = require('util');
+
+// Use 'promisify' to set up use of async/await for function to write README
+const writeFileAsync = util.promisify(fs.writeFile);
+
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
@@ -54,17 +61,26 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+const writeToFile = async (fileName, data) => {
+    try {
+        const markdown = generateMarkdown(data);
+
+        await writeFileAsync(fileName, markdown);
+
+        console.log("ReadMe completed!");
+    } catch (err) {
+        console.error(err);
+    }
+};
 
 // function to initialize program
 function init() {
     inquirer
     .prompt(questions)
-    .then(answers) => {
+    .then((answers) => {
         writeToFile("SampleREADME.md", answers)
     })
-}
+};
 
 // function call to initialize program
 init();
